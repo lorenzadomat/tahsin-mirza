@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -296,4 +297,8 @@ textarea {
 
 .citation {
   margin: 30px 0px;
+}
+
+.paragraph-list li{
+  margin-bottom: 2rem;
 }
