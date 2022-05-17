@@ -393,6 +393,7 @@
   -moz-transition: box-shadow .3s ease;
   transition: box-shadow .3s ease;
   box-shadow: 0 4px 30px rgba(140, 152, 164, 0.2);
+  height: 95%;
 }
 
 .post-grid .card:hover {
