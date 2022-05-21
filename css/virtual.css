@@ -1099,10 +1099,6 @@ a:hover, a:active {
     margin-bottom: 0;
 }
 
-.grid-item .img-caption p::before {
-    content: "\2014";
-    margin-right: 5px;
-}
 
 @media (min-width: 768px) {
     .gridder .grid-item,
@@ -1111,12 +1107,6 @@ a:hover, a:active {
     }
 }
 
-@media (min-width: 992px) {
-    .gridder .grid-item,
-    .gridder .grid-sizer {
-        width: 33.33333%;
-    }
-}
 
 
 /* Theme color style */

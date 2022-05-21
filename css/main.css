@@ -320,3 +320,8 @@ textarea {
 .button-link svg {
   margin-left: 5px;
 }
+
+.page-citation {
+  background-color: #343a40;
+  color: white;
+}
