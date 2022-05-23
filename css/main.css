@@ -325,3 +325,17 @@ textarea {
   background-color: #343a40;
   color: white;
 }
+
+.fixed-background-image {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .fixed-background-image {
+    background-attachment: scroll;
+  }
+}
